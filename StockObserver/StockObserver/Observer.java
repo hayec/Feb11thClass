@@ -1,13 +1,5 @@
 package StockObserver;
-public class Observer 
+public interface Observer 
 {
-	public void Observer()
-	{
-		
-	}
-	public void update(double ibmPrice, double aaplPrice, double googlePrice)
-	{
-		
-	}
-
+	public void update(double ibmPrice, double applePrice, double googlePrice);
 }

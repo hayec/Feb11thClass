@@ -13,7 +13,7 @@ public class StockTarget implements Subject
 	@Override
 	public void register(Observer o) 
 	{
-		observers.add(0, new Observer());
+		observers.add(0, o);//I Believe that the error is here
 	}
 	@Override
 	public void unregister(Observer o) 
